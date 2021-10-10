@@ -1,0 +1,29 @@
+*{
+    background-color: rgb(17, 17, 16);
+}
+.flex-box-rps{
+       display: flex;
+    justify-content: space-around;
+    background-color: rgb(160, 228, 194);
+    align-items: center;
+  
+}
+img{
+    height: 150px;
+    width: 150px;
+}
+.flex-box-rps img:hover{
+    box-shadow: 5px 2px 2px red;
+    transform: translateY(0.5rem);
+    cursor: pointer;
+}
+.container{
+    color: rgb(255, 251, 251);
+    background-color: red;
+}
+h1{
+     text-align: center;
+}
+a{
+   align-items: center;
+}
